@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun Ganapathi | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        /* Custom styles for subtle animations */
+        .hover-scale:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+        .icon-hover:hover {
+            color: #2563eb; /* Tailwind blue-600 */
+            transition: color 0.3s ease-in-out;
+        }
+        .profile-img {
+            border: 4px solid #e5e7eb; /* Tailwind gray-200 */
+            transition: transform 0.3s ease-in-out;
+        }
+        .profile-img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+    <!-- Header -->
+    <header class="bg-white py-12 text-center">
+        <div class="container mx-auto px-4">
+            <!-- <img src="Arun_Ganapathi.jpg" alt="Arun Ganapathi Profile Photo" class="w-32 h-32 rounded-full mx-auto mb-4 profile-img fade-in" style="animation-delay: 0.2s;"> -->
+            <h1 class="text-5xl font-bold fade-in" style="animation-delay: 0.4s;">Arun Ganapathi</h1>
+            <p class="text-xl mt-4 text-gray-600 fade-in" style="animation-delay: 0.6s;">Senior Manager, Software Engineering | Building Scalable Engineering Teams and Software Solutions</p>
+            <div class="mt-6 flex justify-center space-x-6">
+                <a href="https://github.com/aruganap" class="text-gray-600 icon-hover fade-in" style="animation-delay: 0.8s;" aria-label="GitHub">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/aruganap" class="text-gray-600 icon-hover fade-in" style="animation-delay: 0.8s;" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://x.com/aruganap" class="text-gray-600 icon-hover fade-in" style="animation-delay: 0.8s;" aria-label="Twitter">
+                    <i class="fab fa-x-twitter fa-2x"></i>
+                </a>
+                <a href="mailto:arun.ganapathi@oracle.com" class="text-gray-600 icon-hover fade-in" style="animation-delay: 0.8s;" aria-label="Email">
+                    <i class="fas fa-envelope fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-semibold text-center mb-8 fade-in" style="animation-delay: 0.2s;">About Me</h2>
+            <div class="max-w-2xl mx-auto text-center">
+                <p class="text-lg text-gray-700 leading-relaxed fade-in" style="animation-delay: 0.4s;">
+                    I'm a software engineering leader focused on building reliable, scalable, and high-impact software systems. As a Senior Manager of Software Engineering, I enjoy leading teams, improving engineering execution, and helping transform complex technical challenges into practical, customer-focused solutions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About My Journey Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-semibold text-center mb-12 fade-in" style="animation-delay: 0.2s;">About My Journey</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Passionate About -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover-scale fade-in" style="animation-delay: 0.4s;">
+                    <i class="fas fa-code fa-2x text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Passionate About</h3>
+                    <p class="text-gray-600">
+                        Building strong engineering teams and delivering software that is dependable, maintainable, and meaningful. I enjoy solving complex problems, designing scalable systems, and creating engineering practices that help teams move faster with confidence.
+                    </p>
+                </div>
+                <!-- Driven By -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover-scale fade-in" style="animation-delay: 0.6s;">
+                    <i class="fas fa-lightbulb fa-2x text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Driven By</h3>
+                    <p class="text-gray-600">
+                        A commitment to technical excellence, continuous improvement, and team growth. I’m motivated by opportunities to mentor engineers, improve delivery processes, and turn ambitious ideas into reliable software solutions.
+                    </p>
+                </div>
+                <!-- Outside of Work -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover-scale fade-in" style="animation-delay: 0.8s;">
+                    <i class="fas fa-person-hiking fa-2x text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Outside of Work</h3>
+                    <p class="text-gray-600">
+                        Outside of work, I enjoy staying curious, exploring new technology trends, learning from different perspectives, and finding ways to keep growing as both a leader and technologist.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-semibold text-center mb-8 fade-in" style="animation-delay: 0.2s;">Get in Touch</h2>
+            <div class="max-w-lg mx-auto text-center">
+                <p class="text-lg text-gray-700 mb-6 fade-in" style="animation-delay: 0.4s;">
+                    Interested in connecting, collaborating, or discussing software engineering leadership? Feel free to reach out.
+                </p>
+                <a href="mailto:arun.ganapathi@oracle.com" class="inline-block bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 fade-in" style="animation-delay: 0.6s;">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-6 text-center">
+        <div class="container mx-auto px-4">
+            <p class="text-gray-600 fade-in" style="animation-delay: 0.2s;">© 2026 Arun Ganapathi. Built with passion and ☕.</p>
+        </div>
+    </footer>
+</body>
+</html>
